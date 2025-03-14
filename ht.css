@@ -1,0 +1,891 @@
+
+/* ---------------------------------main content page------------------------------------------------------ */
+/* ---------------------------------main content page------------------------------------------------------ */
+#home-body{
+    height: 100vh;
+    overflow: hidden;
+}
+#headding-2 {
+    font-family: "Dancing Script";
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    text-transform: uppercase;
+    color: greenyellow;
+}
+
+#letter-o-2 {
+    font-family:"Dancing Script" ;
+    font-weight: 500;
+    font-size: 200%;
+    color: white;
+}
+
+
+
+#nav-text-home{
+    color: white;
+}
+#nav-text-title{
+    color: white;
+}
+#nav-text-categery{
+    color: white;
+}
+#headding::first-line {
+    color: greenyellow;
+}
+
+
+
+/* --------------------------------text area------------------------------------ */
+/* --------------------------------text area------------------------------------ */
+
+
+body {
+    /* background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);   */
+    /* background: #f46b45; */
+    background: -webkit-linear-gradient(to bottom, #eea849, #f46b45);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #eea849, #f46b45);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /* background-repeat: no-repeat; */
+    /* height: 100%; */
+    /* overflow: hidden; */
+}
+ #textarea-body{
+    height: 100vh;
+ }
+ /* .title-two-div{
+    margin-left: 10%;
+ } */
+ .title-two{
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 50%;
+    outline: none;
+ }
+ .category-two{
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 50%;
+    outline: none;
+ }
+ .one {
+    margin-top: 35%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 90px;
+    flex-direction: column;
+}
+#profile{
+    cursor: pointer;
+}
+ 
+ #card-1{
+    height: 62vh;
+    margin-top: 2%;
+    background-image: url(img/watercolor-floral-frame-multi-purpose-background.png);
+    background-size: contain;
+    background-repeat: repeat;
+    background-color: #00E3FD;
+ }
+#textarea{
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1.5px;
+    height: 62vh;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+#element-icon,
+#t,
+#pencil,
+#A {
+    cursor: pointer;
+}
+
+/*------------icon connection----------*/
+/*------------icon connection----------*/
+
+#texarea-first-colum{
+    padding: 0px; 
+    height: fit-content;
+    border-radius: 10px;
+    height: 62vh;
+    box-shadow: 0px 0px 5px black;
+    background-color: white;
+}
+#wellcome,img{
+    height: 62vh;
+    box-sizing: border-box;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+#emojicard {
+    height: 61.5vh;
+}
+
+#icon-card-body {
+    height:51vh !important;
+    width: 100%;
+    overflow-y: scroll;
+}
+
+
+/* -------------text-style------------- */
+/* -------------text-style------------- */
+
+#textarea-first-colum{
+    box-sizing: border-box;
+    object-fit: cover;
+    overflow: hidden;
+}
+#textstyleoverall {
+    height: 62vh;
+    width: 100%;
+    background-color: salmon;
+}
+
+#filterright {
+    transform: rotateY(180deg);
+    cursor: pointer;
+
+}
+
+#filtercenter {
+    cursor: pointer;
+}
+
+#filterleft {
+    cursor: pointer;
+}
+
+#h1 {
+    cursor: pointer;
+
+}
+
+#h3 {
+    cursor: pointer;
+}
+
+#h6 {
+    cursor: pointer;
+}
+#text-align-box{
+    box-shadow: 0px 0px 5px black;
+}
+#text-size-box{
+    box-shadow: 0px 0px 5px black;
+}
+
+.colors2{
+    justify-content: space-around;
+    gap: 3%;
+    height: 9vh;
+    border-top: 1px solid gray;
+    border-bottom:1px solid gray;
+    margin-top: 5% !important;
+}
+.colorblack {
+    background-color: black;
+    height: 6vh;
+    width: 6vh !important;
+    border-radius: 100%;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px gray;
+}
+
+.white {
+    background-color: white;
+    height: 6vh;
+    width: 6vh !important;
+    border-radius: 100%;
+    box-shadow: 2px 2px 5px black;
+    cursor: pointer;
+}
+.purple {
+    background-color: purple;
+    height: 6vh;
+    width: 6vh !important;
+    border-radius: 100%;
+    box-shadow: 2px 2px 5px black;
+    cursor: pointer;
+}
+
+.red {
+    background-color: red;
+    height: 6vh;
+    width: 6vh !important;
+    border-radius: 100%;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px black;
+}
+
+.blue {
+    background-color: blue;
+    height: 6vh;
+    width: 6vh !important;
+    border-radius: 100%;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px black;
+}
+
+.green {
+    background-color: green;
+    height: 6vh;
+    width: 6vh !important;
+    border-radius: 100%;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px black;
+}
+
+.yellow {
+    background-color: yellow;
+    height: 6vh;
+    width: 6vh !important;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px black;
+}
+
+.pink {
+    background-color: pink;
+    height: 6vh;
+    width: 6vh !important;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px black;
+}
+
+.violet {
+    background-color: violet;
+    height: 6vh;
+    width: 6vh !important;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px black;
+}
+
+.orangered {
+    background-color: orangered;
+    height: 6vh;
+    width: 6vh !important;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px black;
+}
+
+.salmon {
+    background-color: salmon;
+    height: 6vh;
+    width: 6vh !important;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px black;
+}
+
+.brown {
+    background-color: brown;
+    height: 6vh;
+    width: 6vh !important;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px black;
+}
+
+.gray {
+    background-color: gray;
+    height: 6vh;
+    width: 6vh !important;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px black;
+}
+
+.colors2::-webkit-scrollbar {
+    display: none;
+}
+#textstylediv {
+    width: 30% !important;
+    height: 12vh;
+    margin-top: 2%;
+    box-shadow: 2px 2px 5px black;
+}
+
+#default {
+    font-style: normal;
+    cursor: pointer;
+}
+.rubik {
+    font-family: "Rubik Marker Hatch";
+    cursor: pointer;
+  }
+  
+.dancing {
+
+    font-family: "Dancing Script";
+
+    cursor: pointer;
+}
+
+.waterfall {
+    font-family: "Waterfall";
+    cursor: pointer;
+}
+
+.lavishlyyours {
+    font-family: "Lavishly Yours";
+    cursor: pointer;
+}
+
+.waterbrush {
+    font-family: "Water Brush";
+    cursor: pointer;
+}
+
+
+.doto {
+    font-family: "Doto";
+    cursor: pointer;
+}
+
+.pirata {
+    font-family: "Pirata One";
+    cursor: pointer;
+}
+
+.kalnia-glaze {
+    font-family: "Kalnia Glaze";
+    cursor: pointer;
+}
+
+.fontstylesnone {
+    cursor: pointer;
+}
+/* textstyle sm device */
+#magicaparcle-div{
+    text-align: center;
+}
+#pen-to-square-div{
+    text-align: center;
+    margin-top: 10%;
+}
+#magicaparcle{
+    font-size: 250%;
+    margin-top: 10%;
+}
+#pen-to-square{
+    font-size: 250%;
+}
+
+/* ------------offcanvas theem page-------------- */
+/* -------------offcanvas theem page-------------- */
+#offcanvas-overall{
+    width: 100vw;
+    height: 100vh;
+} 
+ .offcanvas-theems-divs{
+    height: 30vh;
+    width: 20vw;
+    border-radius: 5%;
+    /* background-color: #4158D0; */
+} 
+ 
+ #carouseldiv-1{
+    height: 40vh;
+    width: 100vw;
+    cursor: pointer;
+    background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);   
+} 
+#carouseldiv-2{
+    height: 40vh;
+    width: 100vw;
+    background-color:plum;
+    cursor: pointer;
+}
+#carouseldiv-3{
+    height: 40vh;
+    width: 100vw;
+    background-color: #48515d;
+}
+#main{
+    height: 40vh;
+}
+#gradient-heading{
+    cursor: pointer;
+    padding: 1%;
+    border-radius: 5%;
+}
+#lite-heading{
+    cursor: pointer;
+    padding: 1%;
+    border-radius: 5%;
+}
+#dark-heading{
+    cursor: pointer;
+    padding: 1%;
+    border-radius: 5%;
+}
+ #gradient-div-1{
+    background-image: linear-gradient(to bottom, #eea849, #f46b45);
+    cursor: pointer;
+}
+#gradient-div-2{
+    background-image: linear-gradient(to right, #57EBDE, #AEFB2A, #AEFB2A);
+    cursor: pointer;
+}
+#gradient-div-3{
+    background-image: linear-gradient(to right,#E9D022,#E60B09);
+
+}
+#gradient-div-4{
+    background-image: linear-gradient(to right, #6EF195,#00E3FD);
+}
+#gradient-div-5{
+    background: linear-gradient(89deg, rgb(21, 74, 189) 0.1%, rgb(26, 138, 211) 51.5%, rgb(72, 177, 234) 100.2%);
+}
+#gradient-div-6{
+    background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);
+}
+#gradient-div-7{
+    background: linear-gradient(89deg, rgb(21, 74, 189) 0.1%, rgb(26, 138, 211) 51.5%, rgb(72, 177, 234) 100.2%);
+}
+#gradient-div-8{
+    background: linear-gradient(358.3deg, rgb(255, 82, 168) 12.9%, rgb(177, 118, 240) 134.3%);
+}
+#gradient-div-9{
+    background: linear-gradient(137.9deg, rgb(78, 156, 226) 7.8%, rgb(62, 146, 69) 16%, rgb(251, 220, 23) 32.7%, rgb(242, 160, 35) 50.4%, rgb(253, 12, 12) 71.5%, rgb(192, 26, 129) 83.1%);
+}
+#gradient-div-10{
+    background-image: radial-gradient(white, yellow,orange,red);
+}
+#gradient-div-11{
+    background-color: navy;
+}
+/* lite row */
+ #lite-div-1{
+    background-color:#87CEEB;
+}
+#lite-div-2{
+    background-color:plum;
+}
+#lite-div-3{
+    background-color: mediumpurple;
+}
+#lite-div-4{
+    background-color: darkmagenta;
+}
+#lite-div-5{
+    background-color: hotpink;
+}
+#lite-div-6{
+    background-color:crimson;
+}
+#lite-div-7{
+    background-color: rgb(241, 136, 7);
+}
+#lite-div-8{
+    background-color: rosybrown;
+}
+ 
+/* dark row */
+#dark-div-1{
+    background-color:black;
+}
+#dark-div-2{
+    background-color: #2E2E2E;
+}
+#dark-div-3{
+    background-color: #48515d;
+}
+/* registration page */
+/* registration page */
+
+ #registration-body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#registration-overall{
+    height: 95vh;
+    width: 40vw;
+    color: white;
+    box-shadow: 0px 0px 5px salmon;
+}
+#register-btn{
+    background-color: salmon;
+    height: fit-content;
+}
+#login-btn{
+    background-color: salmon;
+    height: fit-content;
+   
+}
+
+#Forget-password{
+    text-decoration: underline;
+    cursor: pointer;
+}
+#login-page{
+   margin-top: -20%;
+} 
+
+
+
+  /* #registrationpage-overall{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+/*
+#registration-page-container-div{
+    height: 95vh; 
+}*/
+
+ /* #registration-page-secondcol{
+    height: 95vh;
+    background-image: linear-gradient(to bottom, #eea849, #f46b45);
+}
+#registration-img{
+    box-shadow: 0px 0px 5px white;
+} 
+#slogan{
+    text-shadow: 0px 0px 5px yellow;
+    margin-top: 20% !important;
+} 
+#loginbutton-2{
+    background-image: linear-gradient(to bottom, #eea849, #f46b45);
+
+}
+#submit-button{
+    background-image: linear-gradient(to bottom, #eea849, #f46b45);
+
+}
+#registration-body{
+    height: fit-content;
+    overflow-y: scroll;
+} */
+/*--------------media quary------------- */
+/*--------------media quary------------- */
+
+@media (max-width:1440px) {
+    /* #element-icon {
+        margin-top: 30px;
+    } */
+
+    #save-button {
+        margin-left: 4.5%;
+    }
+
+    @media (max-width:1024px) {
+        #save-button {
+            margin-left: 1.5%;
+        }
+    }
+
+}
+
+@media (max-width:991px) {
+    .one {
+        flex-direction: row;
+        margin-top: 2%;
+    }
+    #A, #t{
+        margin-top: 1%;
+    }
+    /* #side-nav {
+
+        width: max-content;
+    } */
+
+    #home-body {
+        height: 100%;
+    }
+
+    /* #element-icon {
+        margin-top: 1%;
+    } */
+    #registration-overall{
+        width: 60vw;
+    }
+    .searchform{
+        width: 50% !important;
+    }
+    /* #searchbar{
+        border-radius: 5px;
+        border: 2px solid white;
+        background-color: transparent;
+        letter-spacing: 1.5px;
+        padding: 3px 30px 3px 4px;
+        background-image: url("img/search-removebg-preview.png");
+    } */
+    .searchimgdiv{
+        position: relative; 
+        right: 22%;
+    }
+}
+
+@media (max-width:762px) {
+    #twotwo {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #textarea {
+        flex-direction: column;
+    }
+    .one{
+        margin-top: 2% !important;
+    }
+    /* #profile{
+        margin-top: -5% !important;
+    } */
+}
+
+@media (max-width:768px) {
+    .title-two-div{
+        margin-top: 5%;
+        margin-left: 2%;
+    }
+    .category-two-div{
+        margin-top: 5%;
+        margin-left: 2%;
+    }
+    .one {
+        flex-direction: row;
+        gap: 0px;
+        margin-left: 0px;
+
+    }
+
+    /* #element-icon {
+        margin-top: 2px !important;
+
+    } */
+
+    
+
+    #save-button {
+        margin-left: 3.5%;
+    }
+    /*text style*/
+
+
+    #colors2 {
+        display: flex;
+        overflow-x: scroll;
+    
+    }
+
+    .colors {
+        width: fit-content;
+    }
+
+    #colors2::-webkit-scrollbar {
+        display: none;
+
+    }
+
+    .white {
+        margin-left: auto;
+    }
+
+    #fontstylediv2 {
+        height: 40vh;
+        overflow-y: scroll;
+    }
+    #textstylediv{
+        height: 12vh;
+        justify-content: center;
+        align-items: center;
+    }
+    #fontfamilys-overall{
+       
+        height: 16vh !important;
+        
+    }
+
+    #icon-card-body {
+        margin-top: -14px;
+        height: 54vh;
+        width: 100%;
+        overflow-Y: scroll;
+    }
+
+    #icon-card-body::-webkit-scrollbar {
+        display: none;
+    }
+    /* registration page */
+
+    #registration-overall{
+        width: 70vw;
+    }
+
+    .searchimgdiv{
+        left: -12%;
+    }
+
+
+@media (max-width:575px) {
+    #textarea-body {
+        height: 170vh;
+    }
+
+    .navbar-brand-div{
+        width: 100%;
+    }
+    .title-two{
+        width: 100%;
+    }
+    .category-two{
+        width: 100%;
+    }
+    #texarea-first-colum{
+        height: 40vh;
+        width: 97%;
+    }
+    #wellcome, img{
+        height: 40vh;
+    }
+    #icon-card-body{
+        height: 29.5vh;
+    }
+    #emojicard{
+        height: 39.5vh;
+    }
+    #fontfamilys-overall{
+        height: 23vh;
+        overflow-y: scroll;
+        
+    }
+    .offcanvas-theems-divs{
+        height: 20vh;
+        width: 20vw !important;
+        border-radius: 5%;
+        background-color: #4158D0;
+    } 
+    #registration-overall{
+        width: 90vw;
+    }
+}}
+
+@media (max-width:425px) {
+    
+    #texarea-first-colum{
+        height: 40vh;
+        width: 92%;
+        overflow: hidden;
+    }
+    #wellcome, img{
+        height: 40vh;
+    }
+    
+    #colors2 {
+        display: flex;
+        overflow-x: scroll;
+        padding-top: 2% !important;
+    }
+
+    .colors {
+        width: fit-content;
+    }
+
+    #colors2::-webkit-scrollbar {
+        display: none;
+    }
+
+    .white {
+        margin-left: auto;
+    }
+    #fontfamilys-overall{
+        height: 19vh !important;
+        margin-top: 2%;
+    }
+    #fontstylediv2 {
+        height: 30vh;
+        overflow-y: scroll;
+    }
+/* emojies */
+    #overall {
+        width: 100%;
+        height: 100%;
+
+    }
+
+    #emojicard {
+        height: 100%;
+        width: 100%;
+    }
+
+    #icon-card-body {
+        height: 28vh;
+        overflow-y: scroll;
+    } 
+
+    #textarea-title {
+        position: relative;
+        font-size: 70%;
+        top: 10px;
+
+    }
+    /* #searchimage{
+        left: -100% !important;
+    } */
+}
+
+.value-body{
+    height: 100vh;
+    width: 100%;
+    background: -webkit-linear-gradient(to bottom, #eea849, #f46b45);
+    background: linear-gradient(to bottom, #eea849, #f46b45);
+    padding: 2%;
+}
+.text-div-main{
+    height: 50%;
+    width: 100%;
+}
+.text-div{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    padding: 5%;
+    border-radius: 10px;
+}
+.text-div-two::-webkit-scrollbar{
+    display: none;
+}
+.text-div-two{
+   height: 90%;
+   width: 100%;
+   overflow-y: scroll;
+}
+.text-div-two h2{
+    color:salmon;
+}
+.text-div-two h5{
+    color: white;
+}
+.text-div-two p{
+    color: white;
+}
+.text-div button{
+    background-color: salmon;
+    border-radius: 100px;
+    color: black;
+    border: none;
+    margin-top: 2%;
+    margin-left: 80%;
+}
